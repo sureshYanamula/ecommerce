@@ -5,7 +5,6 @@ function App() {
   return (
     <div>
       <Routes />
-      <h3>Suresh Yanamula(Maneesha)</h3>
     </div>
   );
 }
