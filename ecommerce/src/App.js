@@ -5,7 +5,6 @@ function App() {
   return (
     <div>
       <Routes />
-      <h1>Nani</h1>
     </div>
   );
 }
