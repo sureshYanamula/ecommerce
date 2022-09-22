@@ -10,10 +10,10 @@ const isActive = (history, path) => {
 };
 
 const Menu = ({ history }) => {
-  console.log(history, "history");
+  // const {history} = props
   return (
     <div>
-      <ul className="nav nav-tabs d-flex justify-content-between bg-primary">
+      <ul className="nav nav-tabs bg-primary">
         <li className="nav-item">
           <Link className="nav-link" style={isActive(history, "/")} to="/">
             Home
