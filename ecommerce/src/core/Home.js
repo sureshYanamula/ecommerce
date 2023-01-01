@@ -1,19 +1,19 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Layout from "./Layout";
+import axios from "axios";
 
-function Home() {
-  return (
-    <div>
-      <Layout
-        title="Home Page"
-        description="This is my home page"
-        classOne="lead"
-      >
-        <p>Suresh(Chanti, Banti, Gunni, Banni)</p>
-        <h1>Maneesha</h1>
-      </Layout>
-    </div>
-  );
-}
+const Home = () => {
+  // useEffect(()=>{
+  //   axios.post("url",{email,password} ,headers:{
+  //     "token":"jbeporjaeorjoje",
+  //     "application/tpye":"Json"
+  //   }).then((resp)=>{
+
+  //   }).catch((err)=>{
+
+  //   })
+  // },[])
+  return <div>Home Page</div>;
+};
 
 export default Home;

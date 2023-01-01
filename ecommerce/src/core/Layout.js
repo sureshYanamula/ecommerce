@@ -2,13 +2,13 @@ import React from "react";
 
 const Layout = ({
   title = "Suresh",
-  description = "Manisha's husband",
+  description = "Maneesha's husband",
   classOne,
   children,
 }) => {
   return (
-    <div className="jumbotron">
-      <div>
+    <div>
+      <div className="jumbotron">
         <h1>{title}</h1>
         <p className="lead">{description}</p>
       </div>
